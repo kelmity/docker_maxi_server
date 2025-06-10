@@ -1,0 +1,9 @@
+services:
+  pythoncrash:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pythoncrash
+    container_name: pythoncrash
+    ports:
+      - '5000:8000'
