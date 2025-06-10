@@ -56,4 +56,4 @@ GET /
 {
   "status": "norm, niche tak"
 }
-```X
+```
