@@ -1,0 +1,6 @@
+services:
+  bloom-filter:
+    build: .
+    ports:
+      - "5000:5000"
+    container_name: bloom-filter-app
